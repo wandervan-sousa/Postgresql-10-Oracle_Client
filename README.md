@@ -21,7 +21,7 @@ The central purpose of this installation is to allow the validation of the behav
 Adding an SSH key to clone the repository has become essential as of August 13, 2021, due to the removal of support for password authentication.
 
 ```bash
-git clone https://github.com/wandervan-sousa/Postgresql-10-Oracle_Client.git
+git clone git@github.com:wandervan-sousa/Postgresql-10-Oracle_Client.git
 ```
 
 #### 2. Customize the PostgreSQL configuration:
