@@ -1,0 +1,21 @@
+version: "3.9"
+
+volumes:
+    pg-data-dir: {}
+
+services:
+    postgresql:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            - DEBIAN_FRONTEND=noninteractive
+            - PG_VERSION=10
+            - POSTGRES_PASS=postgres
+        volumes:
+            - pg-data-dir:/var/lib/postgresql/10/main
+            - ./confs/pg_hba.conf:/etc/postgresql/10/main/pg_hba.conf
+            - ./confs/postgresql.conf:/etc/postgresql/10/main/postgresql.conf
+        ports:
+            - 5433:5432
+        command: bash -c "/scripts/start_postgresql_service.sh"
