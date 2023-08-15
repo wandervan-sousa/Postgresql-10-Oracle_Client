@@ -19,7 +19,6 @@ The central purpose of this installation is to allow the validation of the behav
 #### 1. Clone the repository:
 ```bash
 git clone https://gitlab.xskylab.com/data/ibama/envs/production.git
-cd production/p-srv0087/
 ```
 
 #### 2. Customize the PostgreSQL configuration:
