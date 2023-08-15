@@ -18,7 +18,7 @@ The central purpose of this installation is to allow the validation of the behav
 
 #### 1. Clone the repository:
 ```bash
-git clone https://gitlab.xskylab.com/data/ibama/envs/production.git
+git clone https://github.com/wandervan-sousa/Postgresql-10-Oracle_Client.git
 ```
 
 #### 2. Customize the PostgreSQL configuration:
