@@ -22,6 +22,7 @@ Adding an SSH key to clone the repository has become essential as of August 13, 
 
 ```bash
 git clone git@github.com:wandervan-sousa/Postgresql-10-Oracle_Client.git
+cd Postgresql-10-Oracle_Client/
 ```
 
 #### 2. Customize the PostgreSQL configuration:
